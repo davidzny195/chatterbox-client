@@ -19,7 +19,7 @@ var App = {
     App.startSpinner();
     App.fetch(App.stopSpinner);
 
-    setInterval(App.fetch, 10000);
+    setInterval(App.fetch, 2000);
   },
 
   fetch: function(callback = ()=>{}) {

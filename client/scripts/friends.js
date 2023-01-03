@@ -5,13 +5,13 @@
 var Friends = {
   // TODO: Define how you want to store your list of friends.
 
-  friends: new Set(),
+  list: new Set(),
 
   toggleStatus: function(friend) {
-    if (!Friends.friends.has(friend)) {
-      Friends.friends.add(friend);
+    if (!Friends.list.has(friend)) {
+      Friends.list.add(friend);
     } else {
-      Friends.friends.delete(friend);
+      Friends.list.delete(friend);
     }
   }
 };

@@ -25,6 +25,7 @@ var Messages = {
       Messages._data[i] = newMessage;
     }
 
+
     MessagesView.render();
   }
 
